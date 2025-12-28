@@ -43,7 +43,7 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/biomute_bot")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "http://api.nexgenbots.xyz")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+hyjl0Mp7DzU4NTA1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
@@ -121,6 +121,7 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
 
